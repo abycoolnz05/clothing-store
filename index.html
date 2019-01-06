@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Clothing Store!</title>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+        <!-- Bootstrap Css -->      
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">	  		
+	</head>
+	<body>
+		<div class="container-fluid mt-5 text-right header-cart ">
+			<div class="row">
+				<div class="col-12 mx-auto ">
+					<a class="shopping-cart-icon mr-5" href="#" id="cart">
+						<i class="fa fa-shopping-cart"></i>
+						<span class="badge my-cart-counter">( 0 )</span>
+					</a>    					
+  				</div> <!--end col -->
+			</div><!--end row -->		
+		</div><!-- end container header-cart -->
+		  <div class="container-fluid my-cart-popup">
+		   	<div class="shopping-cart">  
+		      <ul class="shopping-cart-items">No Items yet</ul>	
+		    </div> <!--end shopping-cart -->
+		  </div> <!--end container my-cart-popup -->
+		<div class="container container-fluid mt-5 product-details">
+			<div class="row">
+				<div class="col-md-12 mx-auto">
+					<div class="container container-fluid mt-5 ">
+						<div class="row justify-content-center">
+							<div class="col-md-5 float-md-left">
+								<img class="img-fluid" src="assets/img/classic-tee.jpg" alt="classic-tee-img">
+							</div><!-- end col img-->
+
+							<div class="col-md-5 float-md-right">
+								<div id='product1' class='my-cart-name product my-cart-id'>
+									<h4 class="product-heading my-3">Classic Tee</h4>
+								</div>				
+								<div>
+									<p class="product-price price my-cart-price">$ 75.00</p>
+								</div>
+								<div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+								</div>
+								<div>
+									<p class="size-label">Size<span class="required">*</span></p>
+								</div>							
+								<dd class="clearfix swatch-attr">
+									<ul id="configurable_swatch_size" class="size-list configurable-size-list">						
+   									 <li class="size-list__item size option-s">
+											<a href="javascript:void(0)" name="s" data-label="S" class="size__label" title="S">
+												<span class="swatch-label size__name">S</span>
+											</a>
+										</li>
+										<li class="size-list__item size option-m">
+											<a href="javascript:void(0)" name="m" data-label="M" class="size__label" title="M">
+											<span class="swatch-label size__name">M</span>
+											</a>
+										</li>
+										<li class="size-list__item size option-l">
+											<a href="javascript:void(0)" name="l" data-label="L" class="size__label" title="L">
+											<span class="swatch-label size__name">L</span>
+											</a>
+										</li>
+									</ul>									
+								</dd>
+								
+								<button type="button" class="btn btn-outline-dark my-cart-add my-3 mb-3">Add To Cart</button>		
+							</div><!-- end col -->
+
+						</div><!--end row -->
+					</div><!-- end container -->
+
+				</div>
+			</div>
+		</div><!-- end container product-details -->
+		<!-- js -->	  	  	
+	  	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	  	<script type="text/javascript" src="assets/js/app.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	</body>
+</html>	
